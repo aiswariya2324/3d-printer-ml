@@ -1,4 +1,4 @@
-# 🖨️ 3D Printer Quality Analysis & Temperature Forecasting
+# 3D Printer Quality Analysis & Temperature Forecasting
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://python.org)
 [![Keras](https://img.shields.io/badge/Keras-TensorFlow-red.svg)](https://keras.io)
@@ -13,7 +13,7 @@ A machine learning project exploring two problems in 3D printing:
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Results](#-results)
 - [Datasets](#-datasets)
@@ -25,7 +25,7 @@ A machine learning project exploring two problems in 3D printing:
 
 ---
 
-## 📊 Results
+##  Results
 
 ### Part 1 — Material Classification (ABS vs PLA)
 
@@ -43,7 +43,7 @@ A machine learning project exploring two problems in 3D printing:
 
 ---
 
-## 🗂 Datasets
+##  Datasets
 
 ### Dataset 1 — 3D Printer Settings & Quality
 - **Source:** [Kaggle — 3D Printer Dataset](https://www.kaggle.com/datasets/afumetto/3dprinter)
@@ -58,7 +58,7 @@ A machine learning project exploring two problems in 3D printing:
 
 ---
 
-## 🧠 Models
+##  Models
 
 ### Material Classification
 
@@ -88,7 +88,7 @@ A machine learning project exploring two problems in 3D printing:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 3d-printer-ml/
@@ -101,7 +101,7 @@ A machine learning project exploring two problems in 3D printing:
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 **Option A — Google Colab (recommended)**
 
@@ -123,7 +123,7 @@ jupyter notebook 3D_Printer_ML_Analysis.ipynb
 
 ---
 
-## 🔍 Key Findings
+##  Key Findings
 
 1. **ABS and PLA are linearly separable in most feature subspaces** — both KNN and SVM achieve strong accuracy on the test set with minimal tuning.
 
@@ -137,7 +137,7 @@ jupyter notebook 3D_Printer_ML_Analysis.ipynb
 
 ---
 
-## 🛠 Technologies
+##  Technologies
 
 `Python` · `Keras / TensorFlow` · `scikit-learn` · `Pandas` · `NumPy` · `Matplotlib` · `Seaborn` · `Google Colab`
 
